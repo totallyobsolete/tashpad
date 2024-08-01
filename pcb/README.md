@@ -59,4 +59,17 @@ On JLCPCB, select "Specify a location" to the option "Remove Order Number" for a
 ## Building
 Building is straightworfard. It's recommended to start with small components first (diodes, then resistor, LED), then other components, and connectors last.
 
+As a test run, you can run TashPad without the PIC installed. ADB Passthrough should work, and you will be able to check that the PIC power rails are OK. This should havoir damaging the PIC or other stuff if something is wrong
+
+Power pins location:
+
+```
+                  .--------.
+             +5V -|01 \/ 08|- Ground
+                 -|02    07|-
+                 -|03    06|-
+                 -|04    05|-
+                  '--------'
+```
+
 :warning: Please note thay you need to solder the SNES connector with the front panel in position at the same time! Otherwise you will not be able to mount the front panel
