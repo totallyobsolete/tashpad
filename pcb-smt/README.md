@@ -39,8 +39,8 @@ Here is the BOM for the main board. Part numbers are what was tested on prototyp
 | Reference(s)          | Value      | Quantity | Notes                                    | Part number               |
 |-----------------------|------------|----------|------------------------------------------|---------------------------|
 | RF1                   | 1:1:1:1    | 1        | common mode chokes / filters             | HALO LD11-0246FLF         |
-| R1                    | 2.4kΩ      | 1        | thick film resistor 0805 (2012 metric)   | KOA Speer RK73H2ATTD2871F |
-| D1                    | Blue       | 1        | High efficiency 4000-8000mcd 5mm LED     | Cree C503B-ABN-CW0Z0251   |
+| R1                    | 2.87kΩ     | 1        | thick film resistor 0805 (2012 metric)   | KOA Speer RK73H2ATTD2871F |
+| D1                    | Amber      | 1        | High efficiency 4000-8000mcd 5mm LED     | Cree C503B-ABN-CW0Z0251   |
 
 :information_source: The common choke is recommended but pricey (about $5). When building without one, you need to bridge the holes with wires as shown on the PCB
 
